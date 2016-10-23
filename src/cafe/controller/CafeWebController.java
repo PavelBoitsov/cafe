@@ -23,6 +23,7 @@ public class CafeWebController {
 	@Autowired
 	iOrmMethods cafe;
 	
+	// what is this for
 	static RestTemplate restTemplate = new RestTemplate();
 	static String url = "http://localhost:8080/";
 	
